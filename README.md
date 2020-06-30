@@ -16,24 +16,24 @@ Threads are not independent of one another like processes are, and as a result
 threads share with other threads their code section, data section, and OS resources (like open files and signals). 
 But, like process, a thread has its own program counter (PC), register set, and stack space.
 
-## Advantages of Thread over Process
-### 1. Responsiveness:  
+### Advantages of Thread over Process
+#### 1. Responsiveness:  
 If the process is divided into multiple threads, 
 if one thread completes its execution, then its output can be immediately returned.
 
-### 2. Faster context switch:   
+#### 2. Faster context switch:   
 Context switch time between threads is lower compared to process context switch. 
 Process context switching requires more overhead from the CPU.
 
-### 3. Effective utilization of multiprocessor system: 
+#### 3. Effective utilization of multiprocessor system: 
 If we have multiple threads in a single process, then we can schedule multiple threads 
 on multiple processor. This will make process execution faster.
 
-### 4. Resource sharing: 
+#### 4. Resource sharing: 
 Resources like code, data, and files can be shared among all threads within a process.
 Note: stack and registers can’t be shared among the threads. Each thread has its own stack and registers.
 
-### 5. Communication: 
+#### 5. Communication: 
 Communication between multiple threads is easier, as the threads shares common address space. 
 while in process we have to follow some specific communication technique for communication between two process.
 

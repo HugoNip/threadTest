@@ -44,6 +44,8 @@ then the number of jobs completed per unit of time is increased, thus increasing
 ## Two types of Threads
 [*User Level Thread* and *Kernel Level Thread*](https://www.geeksforgeeks.org/difference-between-user-level-thread-and-kernel-level-thread/)
 
+## Single/Multi Threaded process
+![gate-1.png](https://github.com/HugoNip/threadTest/blob/master/figures/gate-1.png)
 
 # Reference
 https://www.geeksforgeeks.org/thread-in-operating-system/  

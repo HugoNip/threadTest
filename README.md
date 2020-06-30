@@ -37,6 +37,14 @@ Note: stack and registers can’t be shared among the threads. Each thread has i
 Communication between multiple threads is easier, as the threads shares common address space. 
 while in process we have to follow some specific communication technique for communication between two process.
 
+#### 6. Enhanced throughput of the system: 
+If a process is divided into multiple threads, and each thread function is considered as one job, 
+then the number of jobs completed per unit of time is increased, thus increasing the throughput of the system.
+
+## Two types of Threads
+### User Level Thread  
+### Kernel Level Thread  
+
 
 # Reference
 https://www.geeksforgeeks.org/thread-in-operating-system/  

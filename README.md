@@ -46,6 +46,13 @@ then the number of jobs completed per unit of time is increased, thus increasing
 
 ## Single/Multi Threaded process
 ![gate-1.png](https://github.com/HugoNip/threadTest/blob/master/figures/gate-1.png)
+A thread is a basic unit of CPU utilization, consisting of a program counter, 
+a stack, and a set of registers, (and a thread ID.) As you can see, for a single thread of control – 
+there is one program counter, and one sequence of instructions that can be carried out at any given
+time and for multi-threaded applications-there are multiple threads within a single process, each
+having their own program counter, stack and set of registers, but sharing common code, data, 
+and certain structures such as open files.
+
 
 # Reference
 https://www.geeksforgeeks.org/thread-in-operating-system/  

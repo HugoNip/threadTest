@@ -42,8 +42,7 @@ If a process is divided into multiple threads, and each thread function is consi
 then the number of jobs completed per unit of time is increased, thus increasing the throughput of the system.
 
 ## Two types of Threads
-### User Level Thread  
-### Kernel Level Thread  
+[*User Level Thread* and *Kernel Level Thread*](https://www.geeksforgeeks.org/difference-between-user-level-thread-and-kernel-level-thread/)
 
 
 # Reference
